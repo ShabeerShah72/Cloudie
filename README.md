@@ -1,16 +1,40 @@
-# cloudie
+# ☁️ Cloudie - Weather App
 
-A new Flutter project.
+Cloudie is a simple weather application built using Flutter. It allows users to search for any city and view the current weather conditions and temperature in real-time.
 
-## Getting Started
+## 🌟 About
 
-This project is a starting point for a Flutter application.
+This is my second Flutter project, created as part of my learning journey in mobile app development. I’m **Shabbir Sharma**, a beginner developer passionate about building user-friendly applications.
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔍 City-based weather search
+- 🌡️ Real-time temperature and condition updates
+- 🌐 API integration for live weather data
+- 🎨 Clean and minimal user interface
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Tech Stack
+
+- **Flutter** - UI framework
+- **Dart** - Programming language
+- **OpenWeatherMap API** (or similar) for weather data
+- **HTTP package** for API calls
+
+## 🛠️ How It Works
+
+1. The user enters a city name.
+2. The app fetches weather data from the API using the API key.
+3. The weather conditions and temperature are displayed on the screen.
+
+
+## 📦 Getting Started
+
+To run the app locally:
+
+Made by Shabeer Shah
+
+```bash
+git clone https://github.com/shabeershah72/cloudie.git
+cd cloudie
+flutter pub get
+flutter run
