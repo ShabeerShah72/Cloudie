@@ -1,3 +1,6 @@
+
+![Cloudie Cover](https://github.com/user-attachments/assets/9d74ddb3-fc4c-453a-b8c5-796a4774bacd)
+
 # ☁️ Cloudie - Weather App
 
 Cloudie is a simple weather application built using Flutter. It allows users to search for any city and view the current weather conditions and temperature in real-time.
