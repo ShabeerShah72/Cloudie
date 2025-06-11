@@ -23,6 +23,10 @@ This is my second Flutter project, created as part of my learning journey in mob
 - **OpenWeatherMap API** (or similar) for weather data
 - **HTTP package** for API calls
 
+##  Screenshort
+
+|  ![Picsart_25-05-29_17-21-30-982](https://github.com/user-attachments/assets/4aee7881-8b02-44f8-ab93-c82b567d98bf) |
+
 ## 🛠️ How It Works
 
 1. The user enters a city name.
