@@ -3,18 +3,24 @@
 
 # ☁️ Cloudie - Weather App
 
-Cloudie is a simple weather application built using Flutter. It allows users to search for any city and view the current weather conditions and temperature in real-time.
-
-## 🌟 About
-
-This is my second Flutter project, created as part of my learning journey in mobile app development. I’m **Shabbir Sharma**, a beginner developer passionate about building user-friendly applications.
+A full-featured weather forecast application built using Flutter and Dart, powered by the OpenWeatherMap API. This app provides real-time weather data including temperature, humidity, wind speed, and pressure with a modern, responsive UI. Designed using the MVVM architecture and Provider for state management to ensure clean and scalable code.
 
 ## 🔧 Features
 
-- 🔍 City-based weather search
-- 🌡️ Real-time temperature and condition updates
-- 🌐 API integration for live weather data
-- 🎨 Clean and minimal user interface
+- Live Weather Updates
+- Displays real-time temperature, weather conditions, wind speed, humidity, and pressure.
+
+- City Search with Auto-Suggestions
+- Search for any city using dynamic suggestions and instant weather results.
+
+- Current Location Detection
+- Automatically fetches weather data based on the user's current geolocation.
+
+- Responsive UI
+- Modern, adaptive interface that fits perfectly across different screen sizes and orientations.
+
+- Robust Error Handling
+- Gracefully handles empty search inputs, network issues, or failed API responses.
 
 ## 🚀 Tech Stack
 
@@ -22,6 +28,8 @@ This is my second Flutter project, created as part of my learning journey in mob
 - **Dart** - Programming language
 - **OpenWeatherMap API** (or similar) for weather data
 - **HTTP package** for API calls
+- **Providert**  State managemen
+- **MVVM Architecture** Clean code structure
 
 ##  Screenshort
 
@@ -34,14 +42,38 @@ This is my second Flutter project, created as part of my learning journey in mob
 3. The weather conditions and temperature are displayed on the screen.
 
 
-## 📦 Getting Started
+## 📦 Folder Structure
 
-To run the app locally:
-
-Made by Shabeer Shah
-
-```bash
-git clone https://github.com/shabeershah72/cloudie.git
-cd cloudie
-flutter pub get
-flutter run
+- lib/
+- ├── binding/
+- ├── common/
+- │ ├── style/
+- │ └── widgets/
+- ├── data/
+- │ ├── repositories/
+- │ └── services/
+- ├── features/
+- │ ├── auth/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- │ ├── personalization/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- │ └── App/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- ├── localization/
+- ├── utils/
+- │ ├── constant/
+- │ ├── devices/
+- │ ├── formatters/
+- │ ├── helpers/
+- │ ├── http/
+- │ ├── local-storage/
+- │ ├── logging/
+- │ ├── theme/
+- │ └── validators/
+- └── main.dart
